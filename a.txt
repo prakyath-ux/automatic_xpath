@@ -147,3 +147,13 @@ Risk	Example	Impact
 Tag changes	Dev changes <input> to <textarea>	XPath breaks
 Component wrappers	React wraps input in <div>	XPath breaks
 SVG elements	<svg> vs <path> vs <circle>	More fragile
+
+
+Create venv:
+
+
+python -m venv venv
+Activate it:
+
+
+venv\Scripts\activate

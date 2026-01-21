@@ -185,25 +185,38 @@ XPATH_JS = """
         const label = el.id || el.name || el.placeholder || el.textContent.trim().slice(0, 30) || el.tagName.toLowerCase();
         const matches = countMatches(result.xpath);
 
-        window.reportXPath(label, result.xpath, result.strategy, matches);
+        window.reportXPath(label, result.xpath, result.strategy, matches, 'click', '');
     }, true);
+
+    // Input capture
+   document.addEventListener('change', function(e) {
+    const el = e.target;
+    const result = getXPath(el);
+    const label = el.id || el.name || el.placeholder || el.tagName.toLowerCase();
+    const matches = countMatches(result.xpath);
+    const value = el.type === 'checkbox' ? el.checked : el.value;
+    window.reportXPath(label, result.xpath, result.strategy, matches, 'change', value);
+    }, true);
+
 })();
 """
 
 
-def handle_xpath(label, xpath, strategy, matches):
+def handle_xpath(label, xpath, strategy, matches, action, values):
     """Handle captured XPath from browser"""
     # Duplicate prevention
-    if xpath in captured_set:
+    if f"{xpath}|{action}" in captured_set:
         print(f"[SKIP] Already captured: {label}")
         return
 
-    captured_set.add(xpath)
+    captured_set.add(f"{xpath}|{action}")
     captured_xpaths.append({
         "label": label,
         "xpath": xpath,
         "strategy": strategy,
-        "matches": matches
+        "matches": matches,
+        "action": action,
+        "values": values
     })
 
     status = "✓ UNIQUE" if matches == 1 else f"⚠ {matches} matches"
@@ -223,7 +236,7 @@ def save_python(filename, url):
         for item in captured_xpaths:
             # Escape single quotes in xpath
             xpath_escaped = item["xpath"].replace("'", "\\'")
-            f.write(f'    "{item["label"]}": \'{xpath_escaped}\',  # {item["strategy"]}\n')
+            f.write(f'    "{item["label"]}": \'{xpath_escaped}\',  # {item["strategy"]} | {item["action"]}: {item["values"]}\n')
         f.write('}\n')
     print(f"Saved to {filename}")
 
@@ -245,9 +258,9 @@ def save_csv(filename, url):
     """Save as CSV file"""
     with open(filename, 'w', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['Label', 'XPath', 'Strategy', 'Matches'])
+        writer.writerow(['Label', 'XPath', 'Strategy', 'Matches', 'Action', 'Value'])
         for item in captured_xpaths:
-            writer.writerow([item["label"], item["xpath"], item["strategy"], item["matches"]])
+            writer.writerow([item["label"], item["xpath"], item["strategy"], item["matches"], item["action"], item["values"]])
     print(f"Saved to {filename}")
 
 
