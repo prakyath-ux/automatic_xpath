@@ -7,6 +7,13 @@
 # - Duplicate prevention
 # - Match count display
 
+
+# XPath capture on click
+# Value capture on change (when leaving a field)
+# UPDATE functionality (latest value is kept)
+# Unique keys with _click / _change suffix
+# Multiple output formats (py, json, csv)
+
 from playwright.sync_api import sync_playwright
 import json
 import csv
@@ -240,7 +247,7 @@ def save_python(filename, url):
         for item in captured_xpaths.values():
             # Escape single quotes in xpath
             xpath_escaped = item["xpath"].replace("'", "\\'")
-            f.write(f'    "{item["label"]}": \'{xpath_escaped}\',  # {item["strategy"]} | {item["action"]}: {item["values"]}\n')
+            f.write(f'    "{item["label"]}_{item["action"]}": \'{xpath_escaped}\',  # {item["strategy"]} | {item["values"]}\n')
         f.write('}\n')
     print(f"Saved to {filename}")
 
