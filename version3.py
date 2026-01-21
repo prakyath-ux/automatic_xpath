@@ -14,8 +14,7 @@ from datetime import datetime
 import signal
 import sys
 
-captured_xpaths = []
-captured_set = set()  # For duplicate prevention
+captured_xpaths = {} # Dict with "xpath|action" as key
 
 XPATH_JS = """
 (function () {
@@ -205,25 +204,30 @@ XPATH_JS = """
 def handle_xpath(label, xpath, strategy, matches, action, values):
     """Handle captured XPath from browser"""
     # Duplicate prevention
-    if f"{xpath}|{action}" in captured_set:
-        print(f"[SKIP] Already captured: {label}")
-        return
+    key = f"{xpath}|{action}"
 
-    captured_set.add(f"{xpath}|{action}")
-    captured_xpaths.append({
+    is_update = key in captured_xpaths
+    
+    #Always set/update
+    captured_xpaths[key] = {
         "label": label,
         "xpath": xpath,
         "strategy": strategy,
         "matches": matches,
         "action": action,
         "values": values
-    })
+    }
 
-    status = "✓ UNIQUE" if matches == 1 else f"⚠ {matches} matches"
-    print(f"[{len(captured_xpaths)}] {label}")
-    print(f"    XPath: {xpath}")
-    print(f"    Strategy: {strategy} | {status}")
-    print()
+    if is_update:
+        print(f"[UPDATE] {label}: {values}")
+    else:
+        status = "UNIQUE" if matches == 1 else f"{matches} matches"
+        print(f"[{len(captured_xpaths)}] {label}")
+        print(f"    XPath: {xpath}")
+        print(f"    Action: {action} | Value: {values}")
+        print(f"    Strategy: {strategy} | {status}")
+        print()
+
 
 
 def save_python(filename, url):
@@ -233,7 +237,7 @@ def save_python(filename, url):
         f.write(f'# Captured at: {datetime.now().isoformat()}\n')
         f.write(f'# Total elements: {len(captured_xpaths)}\n\n')
         f.write('XPATHS = {\n')
-        for item in captured_xpaths:
+        for item in captured_xpaths.values():
             # Escape single quotes in xpath
             xpath_escaped = item["xpath"].replace("'", "\\'")
             f.write(f'    "{item["label"]}": \'{xpath_escaped}\',  # {item["strategy"]} | {item["action"]}: {item["values"]}\n')
@@ -247,7 +251,7 @@ def save_json(filename, url):
         "url": url,
         "captured_at": datetime.now().isoformat(),
         "total_elements": len(captured_xpaths),
-        "xpaths": captured_xpaths
+        "xpaths": list(captured_xpaths.values())
     }
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2)
@@ -259,7 +263,7 @@ def save_csv(filename, url):
     with open(filename, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['Label', 'XPath', 'Strategy', 'Matches', 'Action', 'Value'])
-        for item in captured_xpaths:
+        for item in captured_xpaths.values():
             writer.writerow([item["label"], item["xpath"], item["strategy"], item["matches"], item["action"], item["values"]])
     print(f"Saved to {filename}")
 
