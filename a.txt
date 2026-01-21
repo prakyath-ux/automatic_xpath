@@ -133,3 +133,17 @@ So the logic becomes:
 ****************************
 //*[@data-testid="button"]
 Add profile picture -> //*[@data-testid="button"]
+
+***********************************************************
+
+Keep * for IDs - IDs are meant to be unique, so the tag doesn't add value and only adds fragility.
+
+Use tag for text-based selectors - Already doing this (//button[contains(., "Submit")]) because text can appear in multiple tag types.
+
+The current approach is actually a reasonable balance.
+****************************************
+Risks of Adding Tag Name
+Risk	Example	Impact
+Tag changes	Dev changes <input> to <textarea>	XPath breaks
+Component wrappers	React wraps input in <div>	XPath breaks
+SVG elements	<svg> vs <path> vs <circle>	More fragile
