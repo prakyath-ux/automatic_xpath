@@ -1,0 +1,135 @@
+from playwright.sync_api import sync_playwright
+
+# Version 2 - Enhanced XPath Recorder
+
+from playwright.sync_api import sync_playwright
+
+XPATH_JS = """
+(function () {
+    function getXPath(element) {
+        // Priority 1: ID
+        if (element.id) {
+            return '//*[@id="' + element.id + '"]';
+        }
+
+        // Priority 2: Name
+        if (element.name) {
+            return '//' + element.tagName.toLowerCase() + '[@name="' + element.name +'"]';
+        }
+
+        //Priority 3: data test-id 
+        if (element.dataset && element.dataset.testid) {
+            return '//*[@data-testid="' + element.dataset.testid + '"]';
+        }
+
+        // Priority 4: Placeholder
+        if (element.placeholder) {
+            return '//input[@placeholder="' +element.placeholder +'"]';
+        }
+
+        // Priority 5 Button/link text
+        if ((element.tagName === 'BUTTON' || element.tagName === 'A') && element.textContent.trim()) {
+            const text = element.textContent.trim();
+            if (text.length < 50) {
+                return '//' + element.tagName.toLowerCase() + '[text()= "' + text + '"]';
+            }
+        }
+        // Fallback: Buil;d absolute path
+        if (element === document.body) {
+            return '/html/body';
+        }
+
+        let position = 1;
+        let siblings = element.parentNode ? element.parentNode.childNodes : [];
+
+        for (let sibling of siblings) {
+            if (sibling === element) {
+                const parentPath = element.parentNode ? getXPath(element.parentNode) : '';
+                const tagName = element.tagName.toLowerCase();
+                return parentPath + '/' + tagName + '[' + position +']';
+            }
+            if (sibling.nodeType === 1 && sibling.tagName === element.tagName) {
+                position++;
+            }
+        }
+        return '';
+    }
+
+    document.addEventListener('click', function(e) {
+        const el = e.target;
+        const xpath = getXPath(e.target);
+
+        // Get a readable label for the element
+        const label = el.id || el.name || el.placeholder || el.textContent.trim().slice(0, 30) || el.tagName.toLowerCase();
+
+        window.reportXPath(label, xpath);
+    }, true);
+})();
+
+"""
+
+def handle_xpath(label, xpath):
+    print(f">>> {label} -> {xpath}")
+
+def main():
+    url = input("Enter URL: ")
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_page()
+        page.expose_function("reportXPath", handle_xpath)
+        page.goto(url)
+        page.evaluate(XPATH_JS)
+
+        print("\nClick elements to capture XPath. Press Enter to close.\n")
+        input()
+        browser.close()
+
+if __name__ == "__main__":
+    main()
+
+
+    ******************************
+
+
+
+The goal is to get relative XPaths (short, readable) - not absolute paths (long, fragile).
+
+The issue is: when data-testid="button" matches 3 elements, we have two choices:
+
+Fall back to absolute path (what I proposed) - Unique but ugly
+Make the relative path more specific - Still short but unique
+Option 2 is better. We could combine attributes to make it unique:
+
+
+//*[@data-testid="button" and contains(text(), "Capture")]
+Or find the nearest parent with an ID:
+
+
+//*[@id="upload-section"]//*[@data-testid="button"]
+Which approach do you prefer?
+
+Combine attributes - Add text, position, or other attributes to make it unique
+Anchor to parent - Find nearest unique parent, then relative path from there
+Accept duplicates for now - Show the match count so QA knows it's not unique
+What fits your use case best?
+
+Lets go with 1st approach, but in scenarios where there are no attributes at all, lets use absolute path. Do you concur?
+Yes, I concur. That's a sensible approach:
+
+Try relative XPath with combined attributes until unique
+Only use absolute path as last resort when no attributes exist
+So the logic becomes:
+
+
+1. Try id → unique? done
+2. Try name → unique? done
+3. Try data-testid → unique? done
+4. Try placeholder → unique? done
+5. Try text → unique? done
+6. If not unique, combine: data-testid + text → unique? done
+7. If no attributes at all → absolute path
+
+****************************
+//*[@data-testid="button"]
+Add profile picture -> //*[@data-testid="button"]

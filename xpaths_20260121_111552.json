@@ -1,0 +1,62 @@
+{
+  "url": "https://qa-tq-awp.impactodigifin.xyz/newapplication",
+  "captured_at": "2026-01-21T11:15:52.213981",
+  "xpaths": [
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]"
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]"
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]"
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]"
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]"
+    },
+    {
+      "label": "Select Branch",
+      "xpath": "//*[@data-testid=\"dropdown-text\"]"
+    },
+    {
+      "label": "200 - TECU - COUVA BRANCH",
+      "xpath": "//*[@data-testid=\"option-1\"]"
+    },
+    {
+      "label": "Add profile picture",
+      "xpath": "//*[@data-testid=\"button\" and contains(text(), \"Add profile picture\")]"
+    },
+    {
+      "label": "svg",
+      "xpath": "//*[@data-testid=\"close-button\"]"
+    },
+    {
+      "label": "New Member Application",
+      "xpath": "//span[contains(text(), \"New Member Application\")]"
+    },
+    {
+      "label": "Upload Profile Photo",
+      "xpath": "//p[contains(text(), \"Upload Profile Photo\")]"
+    },
+    {
+      "label": "Personal Information",
+      "xpath": "//p[contains(text(), \"Personal Information\")]"
+    },
+    {
+      "label": "Save & Continue",
+      "xpath": "//*[@data-testid=\"button\" and contains(text(), \"Save & Continue\")]"
+    },
+    {
+      "label": "Save & Exit",
+      "xpath": "//*[@data-testid=\"button\" and contains(text(), \"Save & Exit\")]"
+    }
+  ]
+}
