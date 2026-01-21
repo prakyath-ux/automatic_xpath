@@ -1,0 +1,6 @@
+Label,XPath,Strategy,Matches
+firstName,"//*[@id=""firstName""]",id,1
+middleName,"//*[@id=""middleName""]",id,1
+lastName,"//*[@id=""lastName""]",id,1
+Add profile picture,"//*[@data-testid=""button"" and contains(., ""Add profile picture"")]",data-testid+text,1
+svg,"//*[@data-testid=""close-button""]",data-testid,1
