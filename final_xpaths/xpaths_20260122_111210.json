@@ -1,6 +1,6 @@
 {
   "url": "https://qa-tq-awp.impactodigifin.xyz/newapplication",
-  "captured_at": "2026-01-22T08:55:15.131923",
+  "captured_at": "2026-01-22T11:12:10.814681",
   "total_elements": 13,
   "xpaths": [
     {
@@ -17,7 +17,7 @@
       "strategy": "id",
       "matches": 1,
       "action": "change",
-      "values": "ABCDER"
+      "values": "PRAKYATH"
     },
     {
       "label": "email",
@@ -33,7 +33,7 @@
       "strategy": "id",
       "matches": 1,
       "action": "change",
-      "values": "A@GMAIL.COM"
+      "values": "PRAKYATH@GMAIL.COM"
     },
     {
       "label": "middleName",
@@ -49,7 +49,7 @@
       "strategy": "id",
       "matches": 1,
       "action": "change",
-      "values": "DFG"
+      "values": "M"
     },
     {
       "label": "mobileNumber",
@@ -65,7 +65,7 @@
       "strategy": "id",
       "matches": 1,
       "action": "change",
-      "values": "999-9999"
+      "values": "123-4567"
     },
     {
       "label": "lastName",
@@ -81,7 +81,7 @@
       "strategy": "id",
       "matches": 1,
       "action": "change",
-      "values": "EDC"
+      "values": "CHAN"
     },
     {
       "label": "Select Branch",

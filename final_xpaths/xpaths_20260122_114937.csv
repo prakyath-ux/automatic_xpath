@@ -1,14 +1,13 @@
 Label,XPath,Strategy,Matches,Action,Value
 firstName,"//*[@id=""firstName""]",id,1,click,
-firstName,"//*[@id=""firstName""]",id,1,change,ABCDER
+firstName,"//*[@id=""firstName""]",id,1,change,PRAKYATH
 email,"//*[@id=""email""]",id,1,click,
-email,"//*[@id=""email""]",id,1,change,A@GMAIL.COM
-middleName,"//*[@id=""middleName""]",id,1,click,
-middleName,"//*[@id=""middleName""]",id,1,change,DFG
+email,"//*[@id=""email""]",id,1,change,P@GMAIL.COM
+middleName,"//*[@id=""middleName""]",id,1,change,M
 mobileNumber,"//*[@id=""mobileNumber""]",id,1,click,
-mobileNumber,"//*[@id=""mobileNumber""]",id,1,change,999-9999
+mobileNumber,"//*[@id=""mobileNumber""]",id,1,change,666-6666
 lastName,"//*[@id=""lastName""]",id,1,click,
-lastName,"//*[@id=""lastName""]",id,1,change,EDC
+lastName,"//*[@id=""lastName""]",id,1,change,CHAN
 Select Branch,"//*[@data-testid=""dropdown-button""]",data-testid,1,click,
-200 - TECU - COUVA BRANCH,"//*[@data-testid=""option-1""]",data-testid,1,click,
+300 - TECU - PT. FORTIN BRANCH,"//*[@data-testid=""option-2""]",data-testid,1,click,
 Save & Continue,"//*[@data-testid=""button"" and contains(., ""Save & Continue"")]",data-testid+text,1,click,

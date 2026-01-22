@@ -194,7 +194,7 @@ XPATH_JS = """
         window.reportXPath(label, result.xpath, result.strategy, matches, 'click', '');
     }, true);
 
-    // Input capture
+    // Change capture
    document.addEventListener('change', function(e) {
     const el = e.target;
     const result = getXPath(el);
@@ -294,12 +294,17 @@ def main():
     print("- Press Enter in terminal when done")
     print("="*50 + "\n")
 
+    # playwright is browser automation library
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        page = browser.new_page()
+
+        browser = p.chromium.launch(headless=False) # headless =  False , makes the window visible
+        page = browser.new_page() # makes new browser
+
+        # bridge that connects JS(window.reportXPath()) to Python (handle_XPath())
+        # when JS calls reportXPath() Python receives the collected data
         page.expose_function("reportXPath", handle_xpath)
-        page.goto(url)
-        page.evaluate(XPATH_JS)
+        page.goto(url) # goes to website user entered
+        page.evaluate(XPATH_JS) # injects JS into webpage (click/change, listeners, highlight etc)
 
         print("Recording... Click elements to capture XPath.\n")
 

@@ -1,0 +1,19 @@
+Label,XPath,Strategy,Matches,Action,Value
+firstName,"//*[@id=""firstName""]",id,1,click,
+firstName,"//*[@id=""firstName""]",id,1,change,AJAYPOUTFH
+email,"//*[@id=""email""]",id,1,click,
+email,"//*[@id=""email""]",id,1,change,A@GMAIL.COM
+middleName,"//*[@id=""middleName""]",id,1,click,
+middleName,"//*[@id=""middleName""]",id,1,change,M
+mobileNumber,"//*[@id=""mobileNumber""]",id,1,click,
+mobileNumber,"//*[@id=""mobileNumber""]",id,1,change,777-7777
+lastName,"//*[@id=""lastName""]",id,1,click,
+lastName,"//*[@id=""lastName""]",id,1,change,CHAN
+Select Branch,"//*[@data-testid=""dropdown-text""]",data-testid,1,click,
+300 - TECU - PT. FORTIN BRANCH,"//*[@data-testid=""option-2""]",data-testid,1,click,
++1868,"//div[contains(@class, ""border-r-2"")]",class,1,click,
+TRINIDAD AND TOBAGO (+1868),"//span[contains(., ""TRINIDAD AND TOBAGO (+1868)"")]",text,1,click,
+Add profile picture,"//*[@data-testid=""button"" and contains(., ""Add profile picture"")]",data-testid+text,1,click,
+Capture,"//*[@data-testid=""capture-button""]",data-testid,1,click,
+Capture Photo,"//*[@data-testid=""capture-photo-button""]",data-testid,1,click,
+Save & Continue,"//*[@data-testid=""button"" and contains(., ""Save & Continue"")]",data-testid+text,1,click,
