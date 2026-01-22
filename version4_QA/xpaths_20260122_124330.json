@@ -1,0 +1,103 @@
+{
+  "url": "https://qa-tq-awp.impactodigifin.xyz/newapplication",
+  "captured_at": "2026-01-22T12:43:30.409384",
+  "total_elements": 12,
+  "xpaths": [
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "A"
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "AA"
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "AAA"
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "A@GMAIL.COM"
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "111-1111"
+    },
+    {
+      "label": "Select Branch",
+      "xpath": "//*[@data-testid=\"dropdown-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "100 - TECU - MARABELLA BRANCH",
+      "xpath": "//*[@data-testid=\"option-0\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    }
+  ]
+}
