@@ -1,0 +1,27 @@
+so FIND_PATTERNS is a dict with function names as key and possibale column names as values. detect_field_types is a way of telling if any of the name sin the dictionary is present, identify it as key and use that fucntion.
+
+generate_values is a way of telling, accept field type detected by detect_field_type, and then create 10 fake values about it (all going downward as column values one below the other), this is carried on for name, phone and email, This way all 17 of our df column names are covered, each column now having 10 values below.
+
+
+
+
+
+****************************
+okay new task, 2 really important things to consider.
+1. We will refer to this as test scenarios. We dont need this much data, we need 1  template row, w
+here test scenario is passed,  and about just 20 new fake data created where changes are created, 
+important thing is to consider having a description, row 0 is perfect template, 
+what has changed in values in row 1 as comapred to row 0, we need that description for every fake data values, 
+this will help in understanding what and why a fake test scenario data has failed and what changes its data has from 
+the row 0 perfect passed test scenario data flow.
+
+2. we will refer to this as test cases. We need to create different sheets of data, 
+for example this is our current data flow:
+Element	firstName	firstName	email	email	middleName	middleName	mobileNumber	mobileNumber	lastName	l
+astName	Select Branch	100 - TECU - MARABELLA BRANCH	Add profile picture	Capture	Cancel	svg	Save & Continue
+
+for automation and QA testing we need permutation combination of all these columns, 
+where the coulmun names are interchanged in its location, 
+because think of it, what happens when user enteres number first and then profile picture, 
+then brand and then first name? Now our row0 perfect test case will fail automation and QA here. 
+Does that make sense? Sowe need permutation combination of all these columns 

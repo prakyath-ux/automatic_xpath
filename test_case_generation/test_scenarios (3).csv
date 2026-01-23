@@ -1,0 +1,22 @@
+Description,firstName,firstName,email,email,middleName,mobileNumber,mobileNumber,lastName,lastName,Select Branch,300 - TECU - PT. FORTIN BRANCH,Save & Continue
+Perfect template,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,666-6666,Click,CHAN,Click,Click,Click
+firstName - empty,Click,,Click,P@GMAIL.COM,M,Click,666-6666,Click,CHAN,Click,Click,Click
+firstName - special,Click,@#$%^&,Click,P@GMAIL.COM,M,Click,666-6666,Click,CHAN,Click,Click,Click
+firstName - numeric,Click,12345,Click,P@GMAIL.COM,M,Click,666-6666,Click,CHAN,Click,Click,Click
+firstName - too long,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,P@GMAIL.COM,M,Click,666-6666,Click,CHAN,Click,Click,Click
+email - empty,Click,PRAKYATH,Click,,M,Click,666-6666,Click,CHAN,Click,Click,Click
+email - special,Click,PRAKYATH,Click,@#$%^&,M,Click,666-6666,Click,CHAN,Click,Click,Click
+email - numeric,Click,PRAKYATH,Click,12345,M,Click,666-6666,Click,CHAN,Click,Click,Click
+email - too long,Click,PRAKYATH,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,M,Click,666-6666,Click,CHAN,Click,Click,Click
+middleName - empty,Click,PRAKYATH,Click,P@GMAIL.COM,,Click,666-6666,Click,CHAN,Click,Click,Click
+middleName - special,Click,PRAKYATH,Click,P@GMAIL.COM,@#$%^&,Click,666-6666,Click,CHAN,Click,Click,Click
+middleName - numeric,Click,PRAKYATH,Click,P@GMAIL.COM,12345,Click,666-6666,Click,CHAN,Click,Click,Click
+middleName - too long,Click,PRAKYATH,Click,P@GMAIL.COM,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,666-6666,Click,CHAN,Click,Click,Click
+mobileNumber - empty,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,,Click,CHAN,Click,Click,Click
+mobileNumber - special,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,@#$%^&,Click,CHAN,Click,Click,Click
+mobileNumber - numeric,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,12345,Click,CHAN,Click,Click,Click
+mobileNumber - too long,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,CHAN,Click,Click,Click
+lastName - empty,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,666-6666,Click,,Click,Click,Click
+lastName - special,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,666-6666,Click,@#$%^&,Click,Click,Click
+lastName - numeric,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,666-6666,Click,12345,Click,Click,Click
+lastName - too long,Click,PRAKYATH,Click,P@GMAIL.COM,M,Click,666-6666,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,Click,Click
