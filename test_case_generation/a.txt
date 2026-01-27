@@ -25,3 +25,55 @@ where the coulmun names are interchanged in its location,
 because think of it, what happens when user enteres number first and then profile picture, 
 then brand and then first name? Now our row0 perfect test case will fail automation and QA here. 
 Does that make sense? Sowe need permutation combination of all these columns 
+
+
+
+************************************
+
+
+FIX: Row has TOO FEW columns
+
+If header has 19 columns but this row has 18, add 1 "Click" at the end.
+
+Why "Click"? Missing columns are almost always click fields that the LLM forgot. Adding "Click" is the safest default.
+
+Example:
+
+Header: 19 columns
+Row: 18 columns
+19 - 18 = 1
+Add 1 "Click" → now 19 columns
+
+
+
+FIX: Row has TOO MANY columns
+
+If header has 19 columns but this row has 20, trim off the last column.
+
+Example:
+
+Header: 19 columns
+Row: 20 columns
+cols[:19] keeps only first 19, discards column 20
+
+
+
+The Risk
+If LLM forgot a change column (like firstName value), defaulting to "Click" would be wrong.
+
+But this is rare because:
+
+Change columns have distinct values the LLM copies from the perfect row
+The prompt explicitly tells LLM to keep all values from perfect row except the one being tested
+A Safer Alternative (if needed)
+If you find cases where change values are being lost, you could improve the logic:
+
+
+if len(cols) < header_cols:
+    # Get the missing values from perfect row instead of defaulting to Click
+    perfect_cols = lines[1].split(',')  # Row 2 is always perfect template
+    for i in range(len(cols), header_cols):
+        cols.append(perfect_cols[i] if i < len(perfect_cols) else 'Click')
+This would fill missing columns with the actual values from the perfect template row instead of always using "Click".
+
+****************************

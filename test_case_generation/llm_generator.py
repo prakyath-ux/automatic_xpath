@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 from groq import Groq
+from dotenv import load_dotenv
 import os 
+
+load_dotenv()
 # configure Groq
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
@@ -36,46 +39,52 @@ if uploaded_file:
             # Create perfect row string
             perfect_row = "Perfect template," + ",".join(str(v) for v in original_values)
             
-            # Find which indices are "change" (input fields)
-            change_info = []
+            
+            # Count columns dynamically
+            column_count = len(labels) + 1  # +1 for Description column
+
+            # Build list of input fields (change actions only)
+            input_fields = []
             for i, row in df_clean.iterrows():
                 if row['Action'] == 'change':
-                    change_info.append(f"- Index {i}: {row['Label']} = {row['Value']}")
-            # The prompt
-            prompt = f"""
-You are a QA test data generator. Generate a CSV file.
+                    input_fields.append(row['Label'])
 
-COLUMNS (17 total, in this exact order):
-{header}
+            # The prompt (FULLY DYNAMIC - no hardcoded values)
+            prompt = f"""You are a QA test data generator. Generate edge case test scenarios as CSV.
 
-ORIGINAL VALUES FOR PERFECT ROW:
-{perfect_row}
+INPUT DATA:
+- Total columns: {column_count}
+- Header: {header}
+- Perfect row: {perfect_row}
 
-INPUT FIELDS (only these should be modified for edge cases):
-{chr(10).join(change_info)}
+INPUT FIELDS THAT CAN BE MODIFIED (these have user-typed values):
+{', '.join(input_fields)}
 
-All other columns are "Click" - NEVER change them.
+CLICK FIELDS (these are button/dropdown clicks - NEVER modify these):
+All columns with value "Click" must ALWAYS remain exactly "Click"
 
-RULES:
-1. First row: Perfect template with all original values
-2. Each subsequent row: Change ONLY ONE input field, keep everything else exactly the same
-3. Columns with "Click" must ALWAYS stay as "Click"
+TRANSFORMATION RULES:
+1. Row 1: Header row exactly as provided above
+2. Row 2: "Perfect template" row with all original values exactly as provided
+3. Rows 3+: Edge case rows - each row tests ONE input field
 
-EDGE CASES TO CREATE FOR EACH INPUT FIELD:
-- empty (leave blank)
-- @#$%^& (special characters)
-- 12345 (numbers only)  
-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA (too long)
+FOR EACH INPUT FIELD, CREATE THESE EDGE CASES:
+- [fieldName] - empty (leave the field blank, empty string)
+- [fieldName] - special (use: @#$%^&)
+- [fieldName] - numeric (use: 12345)
+- [fieldName] - long (use: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)
 
-EXAMPLE ROWS:
-{header}
-{perfect_row}
-firstName - empty,Click,,Click,PRAK@GMAIL.COM,Click,M,Click,123-4567,Click,CHAN,Click,Click,Click,Click,Click,Click
-email - invalid,Click,PRAKYATH,Click,notanemail,Click,M,Click,123-4567,Click,CHAN,Click,Click,Click,Click,Click,Click
+CRITICAL RULES:
+- Every row must have EXACTLY {column_count} columns
+- "Click" values are NEVER changed - copy them exactly
+- Only modify ONE input field per row
+- Keep all other values identical to the perfect row
+- Description format: "[fieldName] - [edgeCase]"
 
-Generate around 20 test scenario rows.
-
-Return ONLY CSV. No explanation. No markdown. No extra text.
+OUTPUT FORMAT:
+- Return ONLY valid CSV
+- No markdown, no code blocks, no explanation
+- First row is header, second row is perfect template, then edge cases
 """
 
             response = client.chat.completions.create(
@@ -85,12 +94,33 @@ Return ONLY CSV. No explanation. No markdown. No extra text.
             
             result_text = response.choices[0].message.content
             
-            # Clean up - remove any markdown or extra text
+                        # ========== POST-PROCESSING VALIDATION ==========
+            # Clean up markdown if present
             if "```" in result_text:
-                result_text = result_text.split("```")[1]
+                result_text = result_text.split("```")[1] # Get content between ```
                 if result_text.startswith("csv"):
-                    result_text = result_text[3:]
-            result_text = result_text.strip()
+                    result_text = result_text[3:]   # Remove "csv" language tag
+            result_text = result_text.strip()       # Remove whitespace
+            
+            # Validate and fix column counts
+            lines = result_text.split('\n')
+            header_cols = len(lines[0].split(',')) # counter header columns
+            
+            validated_lines = [lines[0]]  # Keep header as-is
+            for line in lines[1:]:
+                if not line.strip():  # Skip empty lines
+                    continue
+                cols = line.split(',')
+                if len(cols) < header_cols:
+                    # Add missing Clicks at the end
+                    cols.extend(['Click'] * (header_cols - len(cols)))
+                elif len(cols) > header_cols:
+                    # Trim extra columns from the end
+                    cols = cols[:header_cols]
+                validated_lines.append(','.join(cols))
+            
+            result_text = '\n'.join(validated_lines)
+
             
             st.write("### Generated Test Scenarios:")
             st.code(result_text)

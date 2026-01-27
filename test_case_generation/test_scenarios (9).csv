@@ -1,0 +1,22 @@
+Description,firstName,firstName,email,email,middleName,middleName,mobileNumber,mobileNumber,lastName,lastName,Select Branch,300 - TECU - PT. FORTIN BRANCH,+1868,TRINIDAD AND TOBAGO (+1868),Add profile picture,Capture,Capture Photo,Save & Continue
+Perfect template,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+firstName - empty,Click,,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+firstName - special,Click,@#$%^&,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+firstName - numeric,Click,12345,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+firstName - long,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+email - empty,Click,PRAKYATH,Click,,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+email - special,Click,PRAKYATH,Click,@#$%^&,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+email - numeric,Click,PRAKYATH,Click,12345,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+email - long,Click,PRAKYATH,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,M,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+middleName - empty,Click,PRAKYATH,Click,A@GMAIL.COM,Click,,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+middleName - special,Click,PRAKYATH,Click,A@GMAIL.COM,Click,@#$%^&,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+middleName - numeric,Click,PRAKYATH,Click,A@GMAIL.COM,Click,12345,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+middleName - long,Click,PRAKYATH,Click,A@GMAIL.COM,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,777-7777,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+mobileNumber - empty,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+mobileNumber - special,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,@#$%^&,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+mobileNumber - numeric,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,12345,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+mobileNumber - long,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,CHAN,Click,Click,Click,Click,Click,Click,Click,Click
+lastName - empty,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,,Click,Click,Click,Click,Click,Click,Click,Click
+lastName - special,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,@#$%^&,Click,Click,Click,Click,Click,Click,Click,Click
+lastName - numeric,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,12345,Click,Click,Click,Click,Click,Click,Click,Click
+lastName - long,Click,PRAKYATH,Click,A@GMAIL.COM,Click,M,Click,777-7777,Click,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,Click,Click,Click,Click,Click,Click,Click,Click
