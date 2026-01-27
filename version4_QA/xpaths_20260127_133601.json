@@ -1,0 +1,399 @@
+{
+  "url": "https://qa-tq-awp.impactodigifin.xyz/newapplication",
+  "captured_at": "2026-01-27T13:36:01.671196",
+  "total_elements": 49,
+  "xpaths": [
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "DIFAYID111@OKEXBIT.COM"
+    },
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "DIFA"
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "M"
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "CHAN"
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "124-5786"
+    },
+    {
+      "label": "Select Branch",
+      "xpath": "//*[@data-testid=\"dropdown-text\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "FLOW BILL",
+      "xpath": "//*[@data-testid=\"option-0\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Add profile picture",
+      "xpath": "//*[@data-testid=\"button\" and contains(., \"Add profile picture\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Upload",
+      "xpath": "//*[@data-testid=\"upload-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "file-upload",
+      "xpath": "//*[@id=\"file-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "file-upload",
+      "xpath": "//*[@id=\"file-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "C:\\fakepath\\Screenshot 2026-01-27 at 1.02.56\u202fPM.png"
+    },
+    {
+      "label": "Save & Continue",
+      "xpath": "//*[@data-testid=\"button\" and contains(., \"Save & Continue\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "otp-input-0",
+      "xpath": "//*[@id=\"otp-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "otp-input-0",
+      "xpath": "//*[@id=\"otp-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-1",
+      "xpath": "//*[@id=\"otp-input-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "2"
+    },
+    {
+      "label": "otp-input-2",
+      "xpath": "//*[@id=\"otp-input-2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-3",
+      "xpath": "//*[@id=\"otp-input-3\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "2"
+    },
+    {
+      "label": "otp-input-4",
+      "xpath": "//*[@id=\"otp-input-4\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-5",
+      "xpath": "//*[@id=\"otp-input-5\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "2"
+    },
+    {
+      "label": "Verify OTP",
+      "xpath": "//*[@data-testid=\"submit-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "1. First form of ID",
+      "xpath": "//*[@data-testid=\"tab-FirstformofID\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "//*[@data-testid=\"dropdown-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select File",
+      "xpath": "//*[@data-testid=\"file-upload-label\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-front-input",
+      "xpath": "//*[@id=\"upload-front-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-front-input",
+      "xpath": "//*[@id=\"upload-front-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "C:\\fakepath\\FlowBill.jpg"
+    },
+    {
+      "label": "Continue",
+      "xpath": "//*[@data-testid=\"continue-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "2. Second form of ID",
+      "xpath": "//*[@data-testid=\"tab-SecondformofID\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "National Identification Card",
+      "xpath": "//*[@data-testid=\"option-1\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Upload Back of ID",
+      "xpath": "//*[@data-testid=\"file-upload-back-label\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-back-input",
+      "xpath": "//*[@id=\"upload-back-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-back-input",
+      "xpath": "//*[@id=\"upload-back-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "C:\\fakepath\\DAVID_N_B.png"
+    },
+    {
+      "label": "svg",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/button[1]/span[2]/svg[1]",
+      "strategy": "absolute",
+      "matches": 0,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mailingCity",
+      "xpath": "//*[@id=\"mailingCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mailingCity",
+      "xpath": "//*[@id=\"mailingCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "TRINCITY"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentAddressSameAsMailing",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentAddressSameAsMailing",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "change",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentAddressSameAsMailing",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentAddressSameAsMailing",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "change",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "utilityDocOption",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "utilityDocOption",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "change",
+      "values": "true"
+    },
+    {
+      "label": "Save and Continue",
+      "xpath": "//*[@data-testid=\"save-and-continue-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    }
+  ]
+}
