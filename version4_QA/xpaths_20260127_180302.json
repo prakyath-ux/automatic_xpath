@@ -1,0 +1,207 @@
+{
+  "url": "https://qa-tq-awp.impactodigifin.xyz/newapplication",
+  "captured_at": "2026-01-27T18:03:02.165240",
+  "total_elements": 25,
+  "xpaths": [
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "ABHI"
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "ABHI@GMAIL.COM"
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "M"
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "452-3678"
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "CHAND"
+    },
+    {
+      "label": "Select Branch",
+      "xpath": "//*[@data-testid=\"dropdown-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "200 - TECU - COUVA BRANCH",
+      "xpath": "//*[@data-testid=\"option-1\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Add profile picture",
+      "xpath": "//*[@data-testid=\"button\" and contains(., \"Add profile picture\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Upload",
+      "xpath": "//*[@data-testid=\"upload-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "file-upload",
+      "xpath": "//*[@id=\"file-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "file-upload",
+      "xpath": "//*[@id=\"file-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "C:\\fakepath\\Screenshot 2026-01-27 at 1.02.56\u202fPM.png"
+    },
+    {
+      "label": "Save & Continue",
+      "xpath": "//*[@data-testid=\"button\" and contains(., \"Save & Continue\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "otp-input-0",
+      "xpath": "//*[@id=\"otp-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "otp-input-0",
+      "xpath": "//*[@id=\"otp-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-1",
+      "xpath": "//*[@id=\"otp-input-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "2"
+    },
+    {
+      "label": "otp-input-2",
+      "xpath": "//*[@id=\"otp-input-2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-3",
+      "xpath": "//*[@id=\"otp-input-3\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "2"
+    },
+    {
+      "label": "otp-input-4",
+      "xpath": "//*[@id=\"otp-input-4\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-5",
+      "xpath": "//*[@id=\"otp-input-5\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "change",
+      "values": "2"
+    },
+    {
+      "label": "Verify OTP",
+      "xpath": "//*[@data-testid=\"submit-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    }
+  ]
+}
