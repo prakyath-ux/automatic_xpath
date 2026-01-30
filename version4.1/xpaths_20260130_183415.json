@@ -1,0 +1,4127 @@
+{
+  "url": "https://qa-tq-awp.impactodigifin.xyz/newapplication",
+  "captured_at": "2026-01-30T18:34:15.326952",
+  "total_elements": 515,
+  "xpaths": [
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "firstName",
+      "xpath": "//*[@id=\"firstName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "PRAKYATH"
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "email",
+      "xpath": "//*[@id=\"email\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "PRAK@GMAIL.COM"
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "middleName",
+      "xpath": "//*[@id=\"middleName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "M"
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mobileNumber",
+      "xpath": "//*[@id=\"mobileNumber\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "234-5432"
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "lastName",
+      "xpath": "//*[@id=\"lastName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "CHAN"
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "//*[@data-testid=\"dropdown-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "UNITED STATES OF AMERICA",
+      "xpath": "//*[@data-testid=\"option-0\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Add profile picture",
+      "xpath": "//*[@data-testid=\"button\" and contains(., \"Add profile picture\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Upload",
+      "xpath": "//*[@data-testid=\"upload-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "file-upload",
+      "xpath": "//*[@id=\"file-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "file-upload",
+      "xpath": "//*[@id=\"file-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\Screenshot 2026-01-27 at 1.02.56\u202fPM.png"
+    },
+    {
+      "label": "Save & Continue",
+      "xpath": "//*[@data-testid=\"button\" and contains(., \"Save & Continue\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "otp-input-0",
+      "xpath": "//*[@id=\"otp-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "otp-input-0",
+      "xpath": "//*[@id=\"otp-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-1",
+      "xpath": "//*[@id=\"otp-input-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "2"
+    },
+    {
+      "label": "otp-input-2",
+      "xpath": "//*[@id=\"otp-input-2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-3",
+      "xpath": "//*[@id=\"otp-input-3\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "2"
+    },
+    {
+      "label": "otp-input-4",
+      "xpath": "//*[@id=\"otp-input-4\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "1"
+    },
+    {
+      "label": "otp-input-5",
+      "xpath": "//*[@id=\"otp-input-5\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "2"
+    },
+    {
+      "label": "Verify OTP",
+      "xpath": "//*[@data-testid=\"submit-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select File",
+      "xpath": "//*[@data-testid=\"file-upload-label\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-front-input",
+      "xpath": "//*[@id=\"upload-front-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-front-input",
+      "xpath": "//*[@id=\"upload-front-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\FlowBill.jpg"
+    },
+    {
+      "label": "Continue",
+      "xpath": "//*[@data-testid=\"continue-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Spouse / Cohabitant",
+      "xpath": "//*[@data-testid=\"option-1\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Upload Back of ID",
+      "xpath": "//*[@data-testid=\"file-upload-back-label\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-back-input",
+      "xpath": "//*[@id=\"upload-back-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-back-input",
+      "xpath": "//*[@id=\"upload-back-input\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\DAVID_N_B.png"
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mailingCity",
+      "xpath": "//*[@id=\"mailingCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "mailingCity",
+      "xpath": "//*[@id=\"mailingCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "TRINCITY"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenGovtOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenGovtOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenGovtOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenGovtOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "permanentAddressLine1",
+      "xpath": "//*[@id=\"permanentAddressLine1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentAddressLine1",
+      "xpath": "//*[@id=\"permanentAddressLine1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "7 NORTHAM ROAD"
+    },
+    {
+      "label": "permanentAddressLine2",
+      "xpath": "//*[@id=\"permanentAddressLine2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentAddressLine2",
+      "xpath": "//*[@id=\"permanentAddressLine2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "BERKLEY ST"
+    },
+    {
+      "label": "permanentCity",
+      "xpath": "//*[@id=\"permanentCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentCity",
+      "xpath": "//*[@id=\"permanentCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "TRINCITY"
+    },
+    {
+      "label": "Choose Country",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Choose Country\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentZipCode",
+      "xpath": "//*[@id=\"permanentZipCode\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "permanentZipCode",
+      "xpath": "//*[@id=\"permanentZipCode\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "57121888"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[4]/div[2]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "utilityDocOption",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[4]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "utilityDocOption",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[4]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[4]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "utilityDocOption",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[4]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "utilityDocOption",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[4]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "Select File",
+      "xpath": "//label[contains(@class, \"gap-2\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-authorization",
+      "xpath": "//*[@id=\"upload-authorization\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-authorization",
+      "xpath": "//*[@id=\"upload-authorization\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\FlowBill.jpg"
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Choose an option\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select File",
+      "xpath": "//label[contains(@class, \"sm:text-xs\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-person-id",
+      "xpath": "//*[@id=\"upload-person-id\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-person-id",
+      "xpath": "//*[@id=\"upload-person-id\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\AVINASH_PASS.png"
+    },
+    {
+      "label": "Save and Continue",
+      "xpath": "//*[@data-testid=\"save-and-continue-button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select Employment Status",
+      "xpath": "//*[@data-testid=\"dropdown-text\" and contains(., \"Select Employment Status\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "FULL TIME PERMANENT",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"FULL TIME PERMANENT\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "FULL TIME TEMPORARY",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"FULL TIME TEMPORARY\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Passport",
+      "xpath": "//*[@data-testid=\"option-2\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "OTHER",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"OTHER\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Father-In-Law",
+      "xpath": "//*[@data-testid=\"option-3\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "PART TIME",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"PART TIME\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Mother",
+      "xpath": "//*[@data-testid=\"option-4\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "RETIRED NON PENSIONED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"RETIRED NON PENSIONED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Mother-In-Law",
+      "xpath": "//*[@data-testid=\"option-5\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "RETIRED PENSIONED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"RETIRED PENSIONED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Spouse",
+      "xpath": "//*[@data-testid=\"option-6\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "SELF EMPLOYED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"SELF EMPLOYED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Brother",
+      "xpath": "//*[@data-testid=\"option-7\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "UNEMPLOYED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"UNEMPLOYED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select Employer",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Select Employer\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ABTENGG",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"ABTENGG\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ACECONT",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"ACECONT\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ACELOR",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"ACELOR\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "AGOSTINI",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"AGOSTINI\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": ":r15:-year",
+      "xpath": "//*[@id=\":r15:-year\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "occupation",
+      "xpath": "//*[@id=\"occupation\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "occupation",
+      "xpath": "//*[@id=\"occupation\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "ENGINEER"
+    },
+    {
+      "label": "Choose sector",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Choose sector\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "OTHERS",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"OTHERS\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "PUBLIC SECTOR",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"PUBLIC SECTOR\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Choose Employment Type",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Choose Employment Type\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Financial",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Financial\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Production/Manufacturing",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Production/Manufacturing\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Professional/Technical",
+      "xpath": "//*[@data-testid=\"dropdown-text\" and contains(., \"Professional/Technical\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Service",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Service\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "employerAddressLine1",
+      "xpath": "//*[@id=\"employerAddressLine1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "employerAddressLine1",
+      "xpath": "//*[@id=\"employerAddressLine1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "1 CRANBURRY AVENUE"
+    },
+    {
+      "label": "employerAddressLine2",
+      "xpath": "//*[@id=\"employerAddressLine2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "employerCity",
+      "xpath": "//*[@id=\"employerCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "employerCity",
+      "xpath": "//*[@id=\"employerCity\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "TRINCITY"
+    },
+    {
+      "label": "workPhoneNo",
+      "xpath": "//*[@id=\"workPhoneNo\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "workPhoneNo",
+      "xpath": "//*[@id=\"workPhoneNo\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "465-2138"
+    },
+    {
+      "label": "workEmail",
+      "xpath": "//*[@id=\"workEmail\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Purpose Of Business Relationsh",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Purpose Of Business Relationsh\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Shares",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Shares\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Fixed Deposit",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Fixed Deposit\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Loan",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Loan\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "UNDER $5,000",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"UNDER $5,000\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "OVER $27,000",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"OVER $27,000\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$5,001-$12,000",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$5,001-$12,000\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$22,001-$27,000",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$22,001-$27,000\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$17,001-$22,000",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$17,001-$22,000\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Salary Frequency",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Salary Frequency\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ANNUALLY",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"ANNUALLY\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "BIWEEKLY",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"BIWEEKLY\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "DAILY",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"DAILY\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "FORTNIGHTLY",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"FORTNIGHTLY\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "HOURLY",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"HOURLY\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "QUARTERLY",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"QUARTERLY\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "salary",
+      "xpath": "//input[@name=\"salary\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "salary",
+      "xpath": "//input[@name=\"salary\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "Input",
+      "values": "$ 13,000.00"
+    },
+    {
+      "label": "Account Funded",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Account Funded\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Others",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Others\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Nationality",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Nationality\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Country of birth",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Country of birth\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "placeOfBirth",
+      "xpath": "//*[@id=\"placeOfBirth\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "placeOfBirth",
+      "xpath": "//*[@id=\"placeOfBirth\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "TRINCITY"
+    },
+    {
+      "label": "birthCertificatePinNo",
+      "xpath": "//*[@id=\"birthCertificatePinNo\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Country of Issuance",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Country of Issuance\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "nationalOfTTSecondary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "nationalOfTTSecondary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "nationalOfTTSecondary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "nationalOfTTSecondary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "Country Of Residence",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Country Of Residence\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Marital Status",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Marital Status\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "COMMON LAW",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"COMMON LAW\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "DIVORCED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"DIVORCED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "MARRIED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"MARRIED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "REMARRIED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"REMARRIED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "SEPARATED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"SEPARATED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "WIDOWED",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "WIDOWED",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"WIDOWED\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Highest Level of Education",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Highest Level of Education\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "UNDERGRADUATE DEGREE",
+      "xpath": "//*[@data-testid=\"dropdown-text\" and contains(., \"UNDERGRADUATE DEGREE\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "PRIMARY SCHOOL",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"PRIMARY SCHOOL\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "POSTGRADUATE DEGREE",
+      "xpath": "//*[@data-testid=\"dropdown-text\" and contains(., \"POSTGRADUATE DEGREE\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Communication Method",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Communication Method\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Text Message",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Text Message\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Phone Call",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Phone Call\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Mail",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[2]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Mail",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Mail\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "memberOfOtherCreditUnion",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "memberOfOtherCreditUnion",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "stateNameOfCreditUnion",
+      "xpath": "//*[@id=\"stateNameOfCreditUnion\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "memberOfOtherCreditUnion",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "memberOfOtherCreditUnion",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "nationalOfTTPrimary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "nationalOfTTPrimary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasBeneficiary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasBeneficiary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isBeneficiaryTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isBeneficiaryTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isBeneficiaryTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "svg",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/svg[1]",
+      "strategy": "absolute",
+      "matches": 0,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "customerId",
+      "xpath": "//input[@placeholder=\"Enter number\"]",
+      "strategy": "placeholder",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "customerId",
+      "xpath": "//input[@placeholder=\"Enter number\"]",
+      "strategy": "placeholder",
+      "matches": 1,
+      "action": "Input",
+      "values": "121668"
+    },
+    {
+      "label": "YYYY-",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[16]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Search",
+      "xpath": "//*[@data-testid=\"button\" and contains(., \"Search\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "BENEFICIARY-DRIVERS-PERMIT"
+    },
+    {
+      "label": "National ID",
+      "xpath": "//label[contains(., \"National ID\")]",
+      "strategy": "text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "BENEFICIARY-NATIONAL-IDENTIFICATION-CARD"
+    },
+    {
+      "label": "Passport",
+      "xpath": "//label[contains(., \"Passport\")]",
+      "strategy": "text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[3]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[3]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "BENEFICIARY-PASSPORT"
+    },
+    {
+      "label": "Birth Certificate",
+      "xpath": "//span[contains(., \"Birth Certificate\")]",
+      "strategy": "text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[4]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[4]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "BENEFICIARY-BIRTH-CERTIFICATE"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[5]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[5]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[5]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "BENEFICIARY-OTHER-DOCUMENTS"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/label[4]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select country",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Select country\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[2]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasBeneficiary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasBeneficiary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasJointPartner",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasJointPartner",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "svg",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/svg[1]",
+      "strategy": "absolute",
+      "matches": 0,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "customerId",
+      "xpath": "//*[@id=\"customerId\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "customerId",
+      "xpath": "//*[@id=\"customerId\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "121671"
+    },
+    {
+      "label": ":r1p:-year",
+      "xpath": "//*[@id=\":r1p:-year\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "img",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select relation",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Select relation\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "No",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/label[2]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasJointPartner",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasJointPartner",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isApplyingForLincuCardApplication",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isApplyingForLincuCardApplication",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isApplyingForLincuCardApplication",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isApplyingForLincuCardApplication",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isApplyingForFipApplication",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isApplyingForFipApplication",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "Plan A",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Plan A\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Plan B",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Plan B\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Plan C",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Plan C\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Plan Type *Plan D",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[2]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Plan D",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Plan D\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Plan E",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Plan E\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Plan F",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Plan F\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[3]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hadFamilyIndemnityPlanCertificate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[3]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hadFamilyIndemnityPlanCertificate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[3]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[3]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hadFamilyIndemnityPlanCertificate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[3]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hadFamilyIndemnityPlanCertificate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[3]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "presentlyCoveredUnderAnotherFip",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "presentlyCoveredUnderAnotherFip",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "presentlyCoveredUnderAnotherFip",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "presentlyCoveredUnderAnotherFip",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[4]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "deductionTypeDesc",
+      "xpath": "//input[@name=\"deductionTypeDesc\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "deductionTypeDesc",
+      "xpath": "//input[@name=\"deductionTypeDesc\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "Input",
+      "values": true
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "criticalIllnessRider",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "criticalIllnessRider",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[7]/div[2]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$150,000.00",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$150,000.00\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$50,000.00",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$50,000.00\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$100,000.00",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$100,000.00\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$300,000.00",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$300,000.00\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "$450,000.00",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"$450,000.00\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Stroke",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Stroke\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Paralysis",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Paralysis\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Major Burns",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Major Burns\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Heart Attack",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Heart Attack\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "remarks",
+      "xpath": "//*[@id=\"remarks\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/label[2]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "criticalIllnessRider",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "criticalIllnessRider",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[6]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "diagnosedWithConditions",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "diagnosedWithConditions",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "diagnosedConditionsDetails",
+      "xpath": "//*[@id=\"diagnosedConditionsDetails\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "diagnosedWithConditions",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "diagnosedWithConditions",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[7]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[8]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "receivedMedicalAttentionLast5Years",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[8]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "receivedMedicalAttentionLast5Years",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[8]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "medicalAttentionDetails",
+      "xpath": "//*[@id=\"medicalAttentionDetails\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[8]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "receivedMedicalAttentionLast5Years",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[8]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "receivedMedicalAttentionLast5Years",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[8]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "Select",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[10]/div[1]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[9]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "wouldLikeToAddInsureds",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[9]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "wouldLikeToAddInsureds",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[9]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[9]/div[1]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "wouldLikeToAddInsureds",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[9]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "wouldLikeToAddInsureds",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[9]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[2]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "DRIVERS-PERMIT",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"DRIVERS-PERMIT\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "NATIONAL-IDENTIFICATION-CARD",
+      "xpath": "//*[@data-testid=\"dropdown-text\" and contains(., \"NATIONAL-IDENTIFICATION-CARD\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "PASSPORT",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"PASSPORT\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "BIRTH-CERTIFICATE",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"BIRTH-CERTIFICATE\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select Document",
+      "xpath": "//label[contains(@class, \"hover:bg-[#cf6d18]\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-input-0",
+      "xpath": "//*[@id=\"upload-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-input-0",
+      "xpath": "//*[@id=\"upload-input-0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\AVINASH_PASS.png"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "familyMember-0-isTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "familyMember-0-isTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "Family Member to be Insured 1I",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "svg",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[4]/div[1]/div[1]/svg[1]",
+      "strategy": "absolute",
+      "matches": 0,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": ":r2p:-year",
+      "xpath": "//*[@id=\":r2p:-year\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[5]/div[9]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Parent / Parent-in-Law",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Parent / Parent-in-Law\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Spouse / Cohabitant",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Spouse / Cohabitant\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasRecommender",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select Relationship",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Select Relationship\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Brother",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Brother\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Cousin",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Cousin\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Daughter",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Daughter\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Father",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Father\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "RelationshipFather",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[3]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Father-in-law",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Father-in-law\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Mother",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Mother\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Friend",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Friend\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Sister",
+      "xpath": "//*[@data-testid=\"option-8\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Other",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Other\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Cousin",
+      "xpath": "//*[@data-testid=\"option-9\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Sister",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Sister\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Friend",
+      "xpath": "//*[@data-testid=\"option-10\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Son",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Son\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Other",
+      "xpath": "//*[@data-testid=\"option-11\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "groupHealth",
+      "xpath": "//input[@name=\"groupHealth\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "groupHealth",
+      "xpath": "//input[@name=\"groupHealth\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "Input",
+      "values": true
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[3]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSpouseCoveredByOtherPlan",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[3]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSpouseCoveredByOtherPlan",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[3]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "planName",
+      "xpath": "//*[@id=\"planName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "planName",
+      "xpath": "//*[@id=\"planName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "ABCD"
+    },
+    {
+      "label": "insuranceCompany",
+      "xpath": "//*[@id=\"insuranceCompany\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "insuranceCompany",
+      "xpath": "//*[@id=\"insuranceCompany\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "DSCV"
+    },
+    {
+      "label": "Select Bank",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Select Bank\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "FIRST CITIZENS BANK",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"FIRST CITIZENS BANK\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "SCOTIA BANK",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"SCOTIA BANK\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ROYAL BANK",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"ROYAL BANK\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "CITIBANK",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"CITIBANK\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "BANK OF BARODA",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"BANK OF BARODA\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "CENTRAL BANK",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"CENTRAL BANK\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "JMMB",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"JMMB\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "branchName",
+      "xpath": "//*[@id=\"branchName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "branchName",
+      "xpath": "//*[@id=\"branchName\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "TRINCITY"
+    },
+    {
+      "label": "accountNo",
+      "xpath": "//*[@id=\"accountNo\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "accountNo",
+      "xpath": "//*[@id=\"accountNo\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "233244224445553"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[5]/div[2]/div[1]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "accountType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[5]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "accountType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[5]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[5]/div[2]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "accountType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[5]/div[2]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "accountType",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[5]/div[2]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "addDependent",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "addDependent",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "1",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"1\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "dependent-0-isTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "dependent-0-isTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[2]/div[2]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select File",
+      "xpath": "//label[contains(@class, \"border\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "dependent-0-upload",
+      "xpath": "//*[@id=\"dependent-0-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "dependent-0-upload",
+      "xpath": "//*[@id=\"dependent-0-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\AVINASH_PASS.png"
+    },
+    {
+      "label": "Reset",
+      "xpath": "//div[contains(@class, \"sm:w-auto\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "svg",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[2]/div[4]/div[1]/div[1]/svg[1]",
+      "strategy": "absolute",
+      "matches": 0,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": ":r39:-year",
+      "xpath": "//*[@id=\":r39:-year\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Spouse",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[6]/div[1]/div[2]/div[4]/div[3]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiary",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "1",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[1]/div[2]/div[1]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiary-0-isTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiary-0-isTecuMember",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[2]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select File",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[3]/div[1]/div[1]/div[1]/label[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiary-0-upload",
+      "xpath": "//*[@id=\"beneficiary-0-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiary-0-upload",
+      "xpath": "//*[@id=\"beneficiary-0-upload\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\AVINASH_PASS.png"
+    },
+    {
+      "label": "svg",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[4]/div[1]/div[1]/svg[1]",
+      "strategy": "absolute",
+      "matches": 0,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": ":r3p:-year",
+      "xpath": "//*[@id=\":r3p:-year\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Spouse",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[4]/div[3]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Mother-in-Law",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Mother-in-Law\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Father-in-Law",
+      "xpath": "//*[@data-testid=\"dropdown-button\" and contains(., \"Father-in-Law\")]",
+      "strategy": "data-testid+text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiaryPercentage0",
+      "xpath": "//*[@id=\"beneficiaryPercentage0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "beneficiaryPercentage0",
+      "xpath": "//*[@id=\"beneficiaryPercentage0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "100"
+    },
+    {
+      "label": "beneficiaryDocumentId0",
+      "xpath": "//*[@id=\"beneficiaryDocumentId0\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "TRINIDAD AND TOBAGO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[6]/div[1]/div[1]/button[1]/span[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "TRINIDAD AND TOBAGO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[6]/div[1]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "2017-10-17",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[6]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "2027-10-16",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[7]/div[2]/div[6]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isAllInformationCorrect",
+      "xpath": "//input[@name=\"isAllInformationCorrect\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isAllInformationCorrect",
+      "xpath": "//input[@name=\"isAllInformationCorrect\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "Input",
+      "values": true
+    },
+    {
+      "label": "isTermsAndConditionsAccepted",
+      "xpath": "//input[@name=\"isTermsAndConditionsAccepted\"]",
+      "strategy": "name",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Accept",
+      "xpath": "//button[contains(., \"Accept\")]",
+      "strategy": "text",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "svg",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/svg[1]",
+      "strategy": "absolute",
+      "matches": 0,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": ":r3t:-month",
+      "xpath": "//*[@id=\":r3t:-month\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": ":r3t:-year",
+      "xpath": "//*[@id=\":r3t:-year\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "phoneNumber-1",
+      "xpath": "//*[@id=\"phoneNumber-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Choose an option",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[2]/div[2]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-input-1",
+      "xpath": "//*[@id=\"upload-input-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "upload-input-1",
+      "xpath": "//*[@id=\"upload-input-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\AVINASH_PASS.png"
+    },
+    {
+      "label": "address-1",
+      "xpath": "//*[@id=\"address-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "address-1",
+      "xpath": "//*[@id=\"address-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "7 BLEAK ST"
+    },
+    {
+      "label": "firstName-1",
+      "xpath": "//*[@id=\"firstName-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "middleName-1",
+      "xpath": "//*[@id=\"middleName-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "lastName-1",
+      "xpath": "//*[@id=\"lastName-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "TRINIDAD AND TOBAGO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[2]/div[5]/div[5]/div[1]/button[1]/span[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Male",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[2]/div[5]/div[6]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "phoneNumber-1",
+      "xpath": "//*[@id=\"phoneNumber-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "154-1141"
+    },
+    {
+      "label": "emailAddress-1",
+      "xpath": "//*[@id=\"emailAddress-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Child",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[2]/div[5]/div[9]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "documentId-1",
+      "xpath": "//*[@id=\"documentId-1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "TRINIDAD AND TOBAGO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[2]/div[7]/div[1]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "2017-10-17",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[2]/div[7]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "2027-10-16",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[2]/div[7]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select Document",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[11]/div[1]/div[3]/div[3]/div[1]/label[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfState",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfState",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfState",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfState",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfGovt",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfGovt",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfGovt",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isHeadOfGovt",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenPolitician",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenPolitician",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/label[2]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenPolitician",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenPolitician",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenJudicialOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenJudicialOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenJudicialOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenJudicialOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenMilitaryOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenMilitaryOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenMilitaryOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenMilitaryOfficial",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[6]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenExecSOC",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenExecSOC",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenExecSOC",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isSenExecSOC",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[7]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[8]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImpPPO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[8]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImpPPO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[8]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[8]/div[2]/div[1]/label[2]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImpPPO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[8]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImpPPO",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[8]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[9]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImmediateFamily",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[9]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImmediateFamily",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[9]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[9]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImmediateFamily",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[9]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isImmediateFamily",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[9]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[10]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isMemberOfSeniorManagement",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[10]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isMemberOfSeniorManagement",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[10]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[10]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isMemberOfSeniorManagement",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[10]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isMemberOfSeniorManagement",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[10]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[11]/div[2]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isPepAssociate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[11]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isPepAssociate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[11]/div[2]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[11]/div[2]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isPepAssociate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[11]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isPepAssociate",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[11]/div[2]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/label[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isCitizenOfOtherCountry",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isCitizenOfOtherCountry",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "Select Country",
+      "xpath": "//button[contains(@class, \"lg:w-full\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Search...",
+      "xpath": "//*[@data-testid=\"search-input\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isCitizenOfOtherCountry",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isCitizenOfOtherCountry",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGreenCardHolder",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGreenCardHolder",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGreenCardHolder",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGreenCardHolder",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGranteePOA",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGranteePOA",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGranteePOA",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isGranteePOA",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasStandingInstructIncome",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasStandingInstructIncome",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasStandingInstructIncome",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "hasStandingInstructIncome",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/label[1]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isDisclosureTaxResidency",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isDisclosureTaxResidency",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/label[1]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "true"
+    },
+    {
+      "label": "div",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/label[2]/div[1]/div[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isDisclosureTaxResidency",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "isDisclosureTaxResidency",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/label[2]/input[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "Input",
+      "values": "false"
+    },
+    {
+      "label": "Select Country",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[7]/div[2]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ssnNo1",
+      "xpath": "//*[@id=\"ssnNo1\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ssnNo2",
+      "xpath": "//*[@id=\"ssnNo2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "ssnNo2",
+      "xpath": "//*[@id=\"ssnNo2\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "124-58-5465"
+    },
+    {
+      "label": "View PDF",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "View PDF",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "View PDF",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "View PDF",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "View PDF",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "View PDF",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[6]/button[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select File",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "1.-job-letter-(less-than-3-months-old)",
+      "xpath": "//*[@id=\"1.-job-letter-(less-than-3-months-old)\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "1.-job-letter-(less-than-3-months-old)",
+      "xpath": "//*[@id=\"1.-job-letter-(less-than-3-months-old)\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\FlowBill.jpg"
+    },
+    {
+      "label": "Select File",
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/label[1]",
+      "strategy": "absolute",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "2.-pay-slip-(less-than-1-month-old)",
+      "xpath": "//*[@id=\"2.-pay-slip-(less-than-1-month-old)\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "2.-pay-slip-(less-than-1-month-old)",
+      "xpath": "//*[@id=\"2.-pay-slip-(less-than-1-month-old)\"]",
+      "strategy": "id",
+      "matches": 1,
+      "action": "Input",
+      "values": "C:\\fakepath\\FlowBill.jpg"
+    },
+    {
+      "label": "Add New Field",
+      "xpath": "//button[contains(@class, \"lg:ml-5\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Enter Document Name",
+      "xpath": "//input[@placeholder=\"Enter Document Name\"]",
+      "strategy": "placeholder",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Select File",
+      "xpath": "//label[contains(@class, \"h-10\")]",
+      "strategy": "class",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    },
+    {
+      "label": "Submit",
+      "xpath": "//*[@data-testid=\"button\"]",
+      "strategy": "data-testid",
+      "matches": 1,
+      "action": "click",
+      "values": ""
+    }
+  ]
+}

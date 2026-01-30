@@ -99,7 +99,7 @@ with col2:
     refresh_interval = st.slider("Interval (seconds)", 1, 10, 2, disabled=not auto_refresh)
 
 # Display settings
-max_entries = st.slider("Show last N entries", 10, 200, 50)
+max_entries = st.slider("Show last N entries", 10, 2000, 1000)
 
 st.divider()
 
