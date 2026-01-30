@@ -1,0 +1,14 @@
+{"type": "start", "url": "https://qa-tq-awp.impactodigifin.xyz/newapplication", "timestamp": "2026-01-30T15:27:13.088457"}
+{"type": "xpath", "label": "firstName", "xpath": "//*[@id=\"firstName\"]", "strategy": "id", "matches": 1, "action": "click", "values": "", "timestamp": "2026-01-30T15:27:17.501886"}
+{"type": "xpath", "label": "firstName", "xpath": "//*[@id=\"firstName\"]", "strategy": "id", "matches": 1, "action": "Input", "values": "PRAK", "timestamp": "2026-01-30T15:27:21.068738"}
+{"type": "xpath", "label": "email", "xpath": "//*[@id=\"email\"]", "strategy": "id", "matches": 1, "action": "click", "values": "", "timestamp": "2026-01-30T15:27:21.116474"}
+{"type": "xpath", "label": "email", "xpath": "//*[@id=\"email\"]", "strategy": "id", "matches": 1, "action": "Input", "values": "P@GMAIL.COM", "timestamp": "2026-01-30T15:27:24.502005"}
+{"type": "xpath", "label": "middleName", "xpath": "//*[@id=\"middleName\"]", "strategy": "id", "matches": 1, "action": "click", "values": "", "timestamp": "2026-01-30T15:27:28.132405"}
+{"type": "xpath", "label": "middleName", "xpath": "//*[@id=\"middleName\"]", "strategy": "id", "matches": 1, "action": "Input", "values": "C", "timestamp": "2026-01-30T15:27:33.622572"}
+{"type": "xpath", "label": "mobileNumber", "xpath": "//*[@id=\"mobileNumber\"]", "strategy": "id", "matches": 1, "action": "click", "values": "", "timestamp": "2026-01-30T15:27:33.684491"}
+{"type": "xpath", "label": "mobileNumber", "xpath": "//*[@id=\"mobileNumber\"]", "strategy": "id", "matches": 1, "action": "Input", "values": "333-3333", "timestamp": "2026-01-30T15:27:37.524846"}
+{"type": "xpath", "label": "lastName", "xpath": "//*[@id=\"lastName\"]", "strategy": "id", "matches": 1, "action": "click", "values": "", "timestamp": "2026-01-30T15:27:37.644439"}
+{"type": "xpath", "label": "lastName", "xpath": "//*[@id=\"lastName\"]", "strategy": "id", "matches": 1, "action": "Input", "values": "CHAN", "timestamp": "2026-01-30T15:27:40.309232"}
+{"type": "xpath", "label": "Select Branch", "xpath": "//*[@data-testid=\"dropdown-button\"]", "strategy": "data-testid", "matches": 1, "action": "click", "values": "", "timestamp": "2026-01-30T15:27:40.373890"}
+{"type": "xpath", "label": "300 - TECU - PT. FORTIN BRANCH", "xpath": "//*[@data-testid=\"option-2\"]", "strategy": "data-testid", "matches": 1, "action": "click", "values": "", "timestamp": "2026-01-30T15:27:41.044673"}
+{"type": "group", "name": "info", "timestamp": "2026-01-30T15:30:04.529991"}

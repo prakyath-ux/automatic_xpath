@@ -1,0 +1,13 @@
+Label,XPath,Strategy,Matches,Action,Value
+firstName,"//*[@id=""firstName""]",id,1,click,
+firstName,"//*[@id=""firstName""]",id,1,Input,AJAY
+email,"//*[@id=""email""]",id,1,click,
+email,"//*[@id=""email""]",id,1,Input,A@GMAIL.COM
+middleName,"//*[@id=""middleName""]",id,1,click,
+middleName,"//*[@id=""middleName""]",id,1,Input,M
+mobileNumber,"//*[@id=""mobileNumber""]",id,1,click,
+mobileNumber,"//*[@id=""mobileNumber""]",id,1,Input,124-3456
+lastName,"//*[@id=""lastName""]",id,1,click,
+lastName,"//*[@id=""lastName""]",id,1,Input,CHAN
+Select Branch,"//*[@data-testid=""dropdown-button""]",data-testid,1,click,
+100 - TECU - MARABELLA BRANCH,"//*[@data-testid=""option-0""]",data-testid,1,click,
